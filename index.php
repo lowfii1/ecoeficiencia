@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coeficiência - Conceitos e Benefícios</title>
+    <title>Ecoeficiência - Conceitos e Benefícios</title>
     <link rel="stylesheet" href="css.css">
 </head>
 <body>
@@ -49,14 +49,14 @@
     
     <section id="cadastro">
         <h2>Cadastro</h2>
-        <form action="processa_cadastro.php" method="POST">
+        <form action="insert.php" method="POST">
     <label for="nome">Nome:</label>
     <input type="text" id="nome" name="nome" required>
     
     <label for="email">Email:</label>
     <input type="email" id="email" name="email" required>
     
-    <label for="telefone">Telefone Celular:</label>
+    <label for="telefone">Número:</label>
     <input type="tel" id="telefone" name="telefone" required>
     
     <label for="sexo">Sexo:</label>

@@ -2,7 +2,7 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nome = trim($_POST['nome']);
     $email = trim($_POST['email']);
-    $telefone_celular = trim($_POST['telefone_celularmysql']);
+    $numero = trim($_POST['numero']);
     $sexo = trim($_POST['sexo']);
  
  
